@@ -4,7 +4,6 @@ export const Layout = styled.div`
   display: flex;
   flex-direction: column;
   gap: 24px;
-  min-width: 435px;
   padding: 36px 24px;
 `;
 
@@ -31,10 +30,9 @@ export const ProductList = styled.div`
   @media (max-width: 767px) {
     grid-template-columns: repeat(2, 1fr);
   }
-  }
 `;
 
-export const CartIconWrapper = styled.button`
+export const CartButtonWrapper = styled.button`
   position: relative;
   width: 35px;
   height: 35px;
